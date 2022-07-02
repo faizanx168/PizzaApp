@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PizzaApp.exe" version="1.0.0.0" publicKeyToken="663a70e940811cbf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PizzaApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PizzaApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PizzaApp.exe" size="1479648">
+      <assemblyIdentity name="PizzaApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vHHTZoug4kk1JU6x6TZ/1qSXdVCYIhUefOY1yQWCuU8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PizzaApp.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-TQ59G5L\faiza" issuerKeyHash="84a7d3a7729f0031a500b7c4cb3843926bb722d0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RDcJIja5Win5Eigul+qYFT53OhA1cUMWnqyeenm0QU0=</DigestValue></Reference></SignedInfo><SignatureValue>AyF4xpz4R60mlhlftpoXOv7aSWI++pok0omsgDis1WnjKmpRR4CsSAQifzf8AbVArEdEbpC4H0La1kxzGpB6RvxN1AkzYKRyMTExgNy+yzmX9V645F2V1FFh3Ht1ADI50pQX/p6ksXVuUDwOJRGPUJpYsZ5RcDIRTxwDKqRfIh0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>op/G1b7VOJULubF9Wnr2M4LqjQS4zOdZyg+qg1B8S/aI41JyzrKodLw25sF8/cjAwVN4Vkj/D14QM06mHLxzmvrV+R68UPaR2nN+Sehl+yJHD458/P95JrGVcyHxsxxnGPPXVo/4qzi2hF23jHdA69ZF9YX6R0g9FB0n0fXPVOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4d41b4797a9eac9e16437135103a773e1598ea972e2812f9295ab93622093744" Description="" Url=""><as:assemblyIdentity name="PizzaApp.exe" version="1.0.0.0" publicKeyToken="663a70e940811cbf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TQ59G5L\faiza</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HB4SMW/hnKmzVAY7CRtW9Q11BOzsnFUn+jJwt0bQ5uY=</DigestValue></Reference></SignedInfo><SignatureValue>Q6ZAtiQK7i9g3z7uOks35ictooWD59V/iAP4q/H+cfeiWG9YuqlIo5AyckMnJfMvcZA6GXX1ncL2/A/m5u7nQQ+4+KXPb6+cwWkAa32NotDxPmnzzz3+OowlHpQweJ/RxnA+nr+8ffjTwE6o45gZjfOlU61Y0B+nj05KqQKLhlM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>op/G1b7VOJULubF9Wnr2M4LqjQS4zOdZyg+qg1B8S/aI41JyzrKodLw25sF8/cjAwVN4Vkj/D14QM06mHLxzmvrV+R68UPaR2nN+Sehl+yJHD458/P95JrGVcyHxsxxnGPPXVo/4qzi2hF23jHdA69ZF9YX6R0g9FB0n0fXPVOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQJurio+2SXoZJth/AqF0VnDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAUQA1ADkARwA1AEwAXABmAGEAaQB6AGEwHhcNMjExMjA0MDIxNzQ2WhcNMjIxMjA0MDgxNzQ2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAUQA1ADkARwA1AEwAXABmAGEAaQB6AGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKKfxtW+1TiVC7mxfVp69jOC6o0EuMznWcoPqoNQfEv2iONScs6yqHS8NubBfP3IwMFTeFZI/w9eEDNOphy8c5r61fkevFD2kdpzfknoZfsiRw+OfPz/eSaxlXMh8bMcZxjz11aP+Ks4toRdt4x3QOvWRfWF+kdIPRQdJ9H1z1TpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAT6v7225yoUhRJdZCf1vrkjNPboScMswnDMmJ1JKVKJ8V5QwkLuHbJ9PXBEyLL/syvP1HXuHPF83LjG1RE14u14WJUiCwz1ZuF0nAhoEmZ7VYAUeZOC/X/q9HPV0pHRNHG2RU8LvHuORHlitXZSlqw4MYZzwGlJd/Ba/b58J5Wiw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
